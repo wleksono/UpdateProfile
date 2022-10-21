@@ -1,0 +1,57 @@
+------------INSTALL SETTINGS SECTION------------
+
+<Replace>
+    <CmdID>ff526792-9bba-4b29-aaaa-f799ca5d924d</CmdID>
+    <Item>
+        <Target>
+            <LocURI>./Vendor/MSFT/Policy/Config/Update/PauseQualityUpdates</LocURI>
+        </Target>
+        <Meta>
+            <Format  xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Data>0</Data>
+    </Item>
+</Replace>
+
+<Replace>
+  <CmdID>82a55f88-2186-406b-994f-1ec415998ebd</CmdID>
+  <Item>
+    <Target>
+        <LocURI>./Device/Vendor/MSFT/Policy/Config/Update/PauseQualityUpdatesStartTime</LocURI>
+      </Target>
+    <Meta>
+      <Format xmlns="syncml:metinf">chr</Format>
+      <Type>text/plain</Type>
+    </Meta>
+    <Data>2022-08-24</Data>
+  </Item>
+</Replace>
+
+------------REMOVE SETTINGS SECTION------------
+
+<Delete>
+    <CmdID>ff526792-9bba-4b29-aaaa-f799ca5d924d</CmdID>
+    <Item>
+        <Target>
+            <LocURI>./Vendor/MSFT/Policy/Config/Update/PauseQualityUpdates</LocURI>
+        </Target>
+        <Meta>
+            <Format  xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Data></Data>
+    </Item>
+</Delete>
+
+<Delete>
+  <CmdID>82a55f88-2186-406b-994f-1ec415998ebd</CmdID>
+  <Item>
+    <Target>
+        <LocURI>./Device/Vendor/MSFT/Policy/Config/Update/PauseQualityUpdatesStartTime</LocURI>
+      </Target>
+    <Meta>
+      <Format xmlns="syncml:metinf">chr</Format>
+      <Type>text/plain</Type>
+    </Meta>
+    <Data></Data>
+  </Item>
+</Delete>

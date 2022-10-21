@@ -1,0 +1,247 @@
+------------INSTALL SETTINGS SECTION------------
+
+<Replace>
+    <CmdID>57c44ad0-7d2f-4d3c-a79a-799d9f75a3b9</CmdID>
+    <Item>
+        <Target>
+            <LocURI>./Vendor/MSFT/Policy/Config/Update/DeferFeatureUpdatesPeriodInDays</LocURI>
+        </Target>
+        <Meta>
+            <Format  xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Data>365</Data>
+    </Item>
+</Replace>
+
+<Replace>
+    <CmdID>09b1edb3-39f3-4adb-8e84-72062a1f388c</CmdID>
+    <Item>
+        <Target>
+            <LocURI>./Vendor/MSFT/Policy/Config/Update/AutoRestartDeadlinePeriodInDaysForFeatureUpdates</LocURI>
+        </Target>
+        <Meta>
+            <Format  xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Data>7</Data>
+    </Item>
+</Replace>
+
+<Replace>
+    <CmdID>e9e6b8e6-00cd-4d96-921a-298a35fef3e0</CmdID>
+    <Item>
+        <Target>
+            <LocURI>./Vendor/MSFT/Policy/Config/Update/EngagedRestartDeadlineForFeatureUpdates</LocURI>
+        </Target>
+        <Meta>
+            <Format  xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Data>2</Data>
+    </Item>
+</Replace>
+
+<Replace>
+    <CmdID>4ed0a0e4-51ac-4b51-8fc6-20ee30eebdac</CmdID>
+    <Item>
+        <Target>
+            <LocURI>./Vendor/MSFT/Policy/Config/Update/EngagedRestartSnoozeScheduleForFeatureUpdates</LocURI>
+        </Target>
+        <Meta>
+            <Format  xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Data>3</Data>
+    </Item>
+</Replace>
+
+
+------------SUGGESTED ADDITIONAL SETTINGS------------
+
+<Replace>
+  <CmdID>b3d35311-a17a-4b86-898d-2c9a2ba0e2b2</CmdID>
+  <Item>
+    <Target>
+      <LocURI>./Device/Vendor/MSFT/Policy/Config/Update/ConfigureDeadlineForFeatureUpdates</LocURI>
+    </Target>
+    <Meta>
+      <Format xmlns="syncml:metinf">int</Format>
+      <Type>text/plain</Type>
+    </Meta>
+    <Data>0</Data>
+  </Item>
+</Replace>
+
+<Replace>
+  <CmdID>6b969809-701d-4cb6-890c-bf3bbfee9183</CmdID>
+  <Item>
+    <Target>
+      <LocURI>./Device/Vendor/MSFT/Policy/Config/Update/ConfigureDeadlineGracePeriodForFeatureUpdates</LocURI>
+    </Target>
+    <Meta>
+      <Format xmlns="syncml:metinf">int</Format>
+      <Type>text/plain</Type>
+    </Meta>
+    <Data>0</Data>
+  </Item>
+</Replace>
+
+<Replace>
+  <CmdID>2e9d5207-6a1f-4eba-bb32-b3414340f5aa</CmdID>
+  <Item>
+    <Target>
+      <LocURI>./Device/Vendor/MSFT/Policy/Config/Update/ConfigureFeatureUpdateUninstallPeriod</LocURI>
+    </Target>
+    <Meta>
+      <Format xmlns="syncml:metinf">int</Format>
+      <Type>text/plain</Type>
+    </Meta>
+    <Data>10</Data>
+  </Item>
+</Replace>
+
+<Replace>
+  <CmdID>d4ab0153-dd31-4591-b1d2-72c0d956ff2d</CmdID>
+  <Item>
+    <Target>
+      <LocURI>./Device/Vendor/MSFT/Policy/Config/Update/ProductVersion</LocURI>
+    </Target>
+    <Meta>
+      <Format xmlns="syncml:metinf">chr</Format>
+    </Meta>
+    <Data>Windows 10</Data>
+  </Item>
+</Replace>
+
+<Replace>
+  <CmdID>5fd0880e-830a-4f22-8ecb-85741c6f6c23</CmdID>
+  <Item>
+    <Target>
+      <LocURI>./Device/Vendor/MSFT/Policy/Config/Update/TargetReleaseVersion</LocURI>
+    </Target>
+    <Meta>
+      <Format xmlns="syncml:metinf">chr</Format>
+    </Meta>
+    <Data>21H2</Data>
+  </Item>
+</Replace>
+
+
+------------REMOVE SETTINGS SECTION------------
+
+<Delete>
+    <CmdID>57c44ad0-7d2f-4d3c-a79a-799d9f75a3b9</CmdID>
+    <Item>
+        <Target>
+            <LocURI>./Vendor/MSFT/Policy/Config/Update/DeferFeatureUpdatesPeriodInDays</LocURI>
+        </Target>
+        <Meta>
+            <Format  xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Data></Data>
+    </Item>
+</Delete>
+
+<Delete>
+    <CmdID>09b1edb3-39f3-4adb-8e84-72062a1f388c</CmdID>
+    <Item>
+        <Target>
+            <LocURI>./Vendor/MSFT/Policy/Config/Update/AutoRestartDeadlinePeriodInDaysForFeatureUpdates</LocURI>
+        </Target>
+        <Meta>
+            <Format  xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Data></Data>
+    </Item>
+</Delete>
+
+<Delete>
+    <CmdID>e9e6b8e6-00cd-4d96-921a-298a35fef3e0</CmdID>
+    <Item>
+        <Target>
+            <LocURI>./Vendor/MSFT/Policy/Config/Update/EngagedRestartDeadlineForFeatureUpdates</LocURI>
+        </Target>
+        <Meta>
+            <Format  xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Data></Data>
+    </Item>
+</Delete>
+
+<Delete>
+    <CmdID>4ed0a0e4-51ac-4b51-8fc6-20ee30eebdac</CmdID>
+    <Item>
+        <Target>
+            <LocURI>./Vendor/MSFT/Policy/Config/Update/EngagedRestartSnoozeScheduleForFeatureUpdates</LocURI>
+        </Target>
+        <Meta>
+            <Format  xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Data></Data>
+    </Item>
+</Delete>
+
+<Delete>
+  <CmdID>b3d35311-a17a-4b86-898d-2c9a2ba0e2b2</CmdID>
+  <Item>
+    <Target>
+      <LocURI>./Device/Vendor/MSFT/Policy/Config/Update/ConfigureDeadlineForFeatureUpdates</LocURI>
+    </Target>
+    <Meta>
+      <Format xmlns="syncml:metinf">int</Format>
+      <Type>text/plain</Type>
+    </Meta>
+    <Data></Data>
+  </Item>
+</Delete>
+
+<Delete>
+  <CmdID>6b969809-701d-4cb6-890c-bf3bbfee9183</CmdID>
+  <Item>
+    <Target>
+      <LocURI>./Device/Vendor/MSFT/Policy/Config/Update/ConfigureDeadlineGracePeriodForFeatureUpdates</LocURI>
+    </Target>
+    <Meta>
+      <Format xmlns="syncml:metinf">int</Format>
+      <Type>text/plain</Type>
+    </Meta>
+    <Data></Data>
+  </Item>
+</Delete>
+
+<Delete>
+  <CmdID>2e9d5207-6a1f-4eba-bb32-b3414340f5aa</CmdID>
+  <Item>
+    <Target>
+      <LocURI>./Device/Vendor/MSFT/Policy/Config/Update/ConfigureFeatureUpdateUninstallPeriod</LocURI>
+    </Target>
+    <Meta>
+      <Format xmlns="syncml:metinf">int</Format>
+      <Type>text/plain</Type>
+    </Meta>
+    <Data></Data>
+  </Item>
+</Delete>
+
+<Delete>
+  <CmdID>d4ab0153-dd31-4591-b1d2-72c0d956ff2d</CmdID>
+  <Item>
+    <Target>
+      <LocURI>./Device/Vendor/MSFT/Policy/Config/Update/ProductVersion</LocURI>
+    </Target>
+    <Meta>
+      <Format xmlns="syncml:metinf">chr</Format>
+    </Meta>
+    <Data></Data>
+  </Item>
+</Delete>
+
+<Delete>
+  <CmdID>5fd0880e-830a-4f22-8ecb-85741c6f6c23</CmdID>
+  <Item>
+    <Target>
+      <LocURI>./Device/Vendor/MSFT/Policy/Config/Update/TargetReleaseVersion</LocURI>
+    </Target>
+    <Meta>
+      <Format xmlns="syncml:metinf">chr</Format>
+    </Meta>
+    <Data></Data>
+  </Item>
+</Delete>

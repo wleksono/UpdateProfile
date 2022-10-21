@@ -1,0 +1,808 @@
+------------INSTALL SETTINGS SECTION------------
+
+<Delete>
+    <CmdID>f17b5f85-59d6-414d-8fb0-04e96bff5cee</CmdID>
+    <Item>
+        <Target>
+            <LocURI>./Vendor/MSFT/Policy/Config/Update/RequireUpdateApproval</LocURI>
+        </Target>
+    </Item>
+</Delete>
+
+<Replace>
+    <CmdID>aa2da755-52bb-4cdd-92c3-31291fb01308</CmdID>
+    <Item>
+        <Target>
+            <LocURI>./Vendor/MSFT/Policy/Config/Update/BranchReadinessLevel</LocURI>
+        </Target>
+        <Meta>
+            <Format  xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Data>16</Data>
+    </Item>
+</Replace>
+
+<Replace>
+    <CmdID>4185eb1a-abcd-4707-85c8-b7c27b45cb1c</CmdID>
+    <Item>
+        <Target>
+            <LocURI>./Vendor/MSFT/Policy/Config/System/AllowBuildPreview</LocURI>
+        </Target>
+        <Meta>
+            <Format  xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Data>2</Data>
+    </Item>
+</Replace>
+
+<Replace>
+  <CmdID>4026d30a-06ff-4cb9-a8c6-c469c49cb7c9</CmdID>
+  <Item>
+    <Target>
+      <LocURI>./Device/Vendor/MSFT/Policy/Config/Update/ManagePreviewBuilds</LocURI>
+    </Target>
+    <Meta>
+      <Format xmlns="syncml:metinf">int</Format>
+    </Meta>
+    <Data>0</Data>
+  </Item>
+</Replace>
+
+<Replace>
+    <CmdID>485268d8-a750-4a99-af29-ec49860f868a</CmdID>
+    <Item>
+        <Target>
+            <LocURI>./Vendor/MSFT/Policy/Config/Update/DeferQualityUpdatesPeriodInDays</LocURI>
+        </Target>
+        <Meta>
+            <Format  xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Data>0</Data>
+    </Item>
+</Replace>
+
+<Replace>
+    <CmdID>eaf1b8bd-4712-4d3a-9c94-71f2454d7f45</CmdID>
+    <Item>
+        <Target>
+            <LocURI>./Vendor/MSFT/Policy/Config/Update/AllowAutoUpdate</LocURI>
+        </Target>
+        <Meta>
+            <Format  xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Data>6</Data>
+    </Item>
+</Replace>
+
+<Replace>
+    <CmdID>cc3166fb-6ed5-4a50-9f7a-f03052be3b04</CmdID>
+    <Item>
+        <Target>
+            <LocURI>./Vendor/MSFT/Policy/Config/Update/ActiveHoursMaxRange</LocURI>
+        </Target>
+        <Meta>
+            <Format  xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Data>18</Data>
+    </Item>
+</Replace>
+
+<Replace>
+    <CmdID>05c9807c-3f1d-4a7f-b78e-8d6a8d3372fc</CmdID>
+    <Item>
+        <Target>
+            <LocURI>./Vendor/MSFT/Policy/Config/Update/ActiveHoursStart</LocURI>
+        </Target>
+        <Meta>
+            <Format  xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Data>8</Data>
+    </Item>
+</Replace>
+
+<Replace>
+    <CmdID>782a7750-7512-438a-a673-0ead349927a5</CmdID>
+    <Item>
+        <Target>
+            <LocURI>./Vendor/MSFT/Policy/Config/Update/ActiveHoursEnd</LocURI>
+        </Target>
+        <Meta>
+            <Format  xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Data>2</Data>
+    </Item>
+</Replace>
+
+<Replace>
+    <CmdID>bd4768a9-b43c-4e24-9b51-ea30a088697f</CmdID>
+    <Item>
+        <Target>
+            <LocURI>./Vendor/MSFT/Policy/Config/Update/AutoRestartDeadlinePeriodInDays</LocURI>
+        </Target>
+        <Meta>
+            <Format  xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Data>2</Data>
+    </Item>
+</Replace>
+
+<Replace>
+    <CmdID>f26ad48f-b258-43be-ac79-a7e8f786b7d2</CmdID>
+    <Item>
+        <Target>
+            <LocURI>./Vendor/MSFT/Policy/Config/Update/AutoRestartNotificationSchedule</LocURI>
+        </Target>
+        <Meta>
+            <Format  xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Data>15</Data>
+    </Item>
+</Replace>
+
+<Replace>
+    <CmdID>41ed6c9d-efc5-4ea8-a1f4-c894fadcb5a3</CmdID>
+    <Item>
+        <Target>
+            <LocURI>./Vendor/MSFT/Policy/Config/Update/AutoRestartRequiredNotificationDismissal</LocURI>
+        </Target>
+        <Meta>
+            <Format  xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Data>1</Data>
+    </Item>
+</Replace>
+
+<Replace>
+    <CmdID>ebb7c1d5-91b6-4e9c-a0ce-63349db18714</CmdID>
+    <Item>
+        <Target>
+            <LocURI>./Vendor/MSFT/Policy/Config/Update/EngagedRestartDeadline</LocURI>
+        </Target>
+        <Meta>
+            <Format  xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Data>2</Data>
+    </Item>
+</Replace>
+
+<Replace>
+    <CmdID>5889c6ff-ad72-475c-a08c-9bee52f3c10c</CmdID>
+    <Item>
+        <Target>
+            <LocURI>./Vendor/MSFT/Policy/Config/Update/EngagedRestartSnoozeSchedule</LocURI>
+        </Target>
+        <Meta>
+            <Format  xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Data>2</Data>
+    </Item>
+</Replace>
+
+<Replace>
+    <CmdID>4971a5d5-f356-47ea-b515-4fb69fd5daf8</CmdID>
+    <Item>
+        <Target>
+            <LocURI>./Vendor/MSFT/Policy/Config/Update/ScheduleRestartWarning</LocURI>
+        </Target>
+        <Meta>
+            <Format  xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Data>4</Data>
+    </Item>
+</Replace>
+
+<Replace>
+    <CmdID>7ef5fd31-60bc-417e-8c5d-71f776ab62c1</CmdID>
+    <Item>
+        <Target>
+            <LocURI>./Vendor/MSFT/Policy/Config/Update/ScheduleImminentRestartWarning</LocURI>
+        </Target>
+        <Meta>
+            <Format  xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Data>15</Data>
+    </Item>
+</Replace>
+
+<Replace>
+    <CmdID>86d59515-05e1-441d-a59b-ff46a20fc01f</CmdID>
+    <Item>
+        <Target>
+            <LocURI>./Vendor/MSFT/Policy/Config/Update/AllowMUUpdateService</LocURI>
+        </Target>
+        <Meta>
+            <Format  xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Data>1</Data>
+    </Item>
+</Replace>
+
+<Replace>
+    <CmdID>626e7ccc-5f8d-4658-b9ed-203eb118d157</CmdID>
+    <Item>
+        <Target>
+            <LocURI>./Vendor/MSFT/Policy/Config/Update/AllowUpdateService</LocURI>
+        </Target>
+        <Meta>
+            <Format  xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Data>1</Data>
+    </Item>
+</Replace>
+
+<Replace>
+    <CmdID>3e19a514-2e4e-44f0-90ac-7ebedeb0e13b</CmdID>
+    <Item>
+        <Target>
+            <LocURI>./Vendor/MSFT/Policy/Config/Update/DetectionFrequency</LocURI>
+        </Target>
+        <Meta>
+            <Format  xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Data>22</Data>
+    </Item>
+</Replace>
+
+<Replace>
+    <CmdID>40411540-598f-4086-9a95-3419b495f04d</CmdID>
+    <Item>
+        <Target>
+            <LocURI>./Vendor/MSFT/Policy/Config/Update/DisableDualScan</LocURI>
+        </Target>
+    <Meta>
+            <Format  xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Data>1</Data>
+    </Item>
+</Replace>
+
+<Replace>
+    <CmdID>47a2a701-f397-4ea1-a259-adc28d50cd1f</CmdID>
+    <Item>
+        <Target>
+            <LocURI>./Vendor/MSFT/Policy/Config/Update/ExcludeWUDriversInQualityUpdate</LocURI>
+        </Target>
+        <Meta>
+            <Format  xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Data>1</Data>
+    </Item>
+</Replace>
+
+<Replace>
+    <CmdID>f534c0a8-3a14-4cc6-8a0d-68d2cc1f58dc</CmdID>
+    <Item>
+        <Target>
+            <LocURI>./Vendor/MSFT/Policy/Config/Update/AllowNonMicrosoftSignedUpdate</LocURI>
+        </Target>
+        <Meta>
+            <Format  xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Data>0</Data>
+    </Item>
+</Replace>
+
+<Replace>
+    <CmdID>1382ed77-d53d-4827-b816-c52bea8cd6f2</CmdID>
+    <Item>
+        <Target>
+            <LocURI>./Vendor/MSFT/Policy/Config/Update/IgnoreMOAppDownloadLimit</LocURI>
+        </Target>
+        <Meta>
+            <Format  xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Data>0</Data>
+    </Item>
+</Replace>
+
+<Replace>
+    <CmdID>7eeacaaf-9de9-4074-844b-47bc012e17f8</CmdID>
+    <Item>
+        <Target>
+            <LocURI>./Vendor/MSFT/Policy/Config/Update/IgnoreMOUpdateDownloadLimit</LocURI>
+        </Target>
+        <Meta>
+            <Format  xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Data>0</Data>
+    </Item>
+</Replace>
+
+<Add>
+    <CmdID>176dbfa6-6427-40c5-825e-a000c3356f40</CmdID>
+    <Item>
+        <Target>
+            <LocURI>./Vendor/MSFT/Policy/Config/Update/RequireUpdateApproval</LocURI>
+        </Target>
+        <Meta>
+            <Format  xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Data>0</Data>
+    </Item>
+</Add>
+
+
+------------SUGGESTED ADDITIONAL SETTINGS------------
+
+<Replace>
+  <CmdID>3fb4d8a6-eea6-43c9-a220-2f530726894e</CmdID>
+  <Item>
+    <Target>
+      <LocURI>./Device/Vendor/MSFT/Policy/Config/Update/AutomaticMaintenanceWakeUp</LocURI>
+    </Target>
+    <Meta>
+      <Format xmlns="syncml:metinf">int</Format>
+      <Type>text/plain</Type>
+    </Meta>
+    <Data>1</Data>
+  </Item>
+</Replace>
+
+<Replace>
+  <CmdID>45f6b6e3-9bed-49c4-b5b9-f518d69f9ce8</CmdID>
+  <Item>
+    <Target>
+      <LocURI>./Device/Vendor/MSFT/Policy/Config/Update/ConfigureDeadlineForQualityUpdates</LocURI>
+    </Target>
+    <Meta>
+      <Format xmlns="syncml:metinf">int</Format>
+      <Type>text/plain</Type>
+    </Meta>
+    <Data>0</Data>
+  </Item>
+</Replace>
+
+<Replace>
+  <CmdID>b1ef3d4f-34ac-49f5-9ac8-a1f7b854f328</CmdID>
+  <Item>
+    <Target>
+      <LocURI>./Device/Vendor/MSFT/Policy/Config/Update/ConfigureDeadlineGracePeriod</LocURI>
+    </Target>
+    <Meta>
+      <Format xmlns="syncml:metinf">int</Format>
+      <Type>text/plain</Type>
+    </Meta>
+    <Data>0</Data>
+  </Item>
+</Replace>
+
+<Replace>
+  <CmdID>56676ddc-036b-4709-a4dc-1bdf054520d0</CmdID>
+  <Item>
+    <Target>
+      <LocURI>./Device/Vendor/MSFT/Policy/Config/Update/ConfigureDeadlineNoAutoReboot</LocURI>
+    </Target>
+    <Meta>
+      <Format xmlns="syncml:metinf">int</Format>
+      <Type>text/plain</Type>
+    </Meta>
+    <Data>0</Data>
+  </Item>
+</Replace>
+
+<Replace>
+  <CmdID>fd7a8abd-2b14-4084-a912-d9bdd2ad7729</CmdID>
+  <Item>
+    <Target>
+      <LocURI>./Device/Vendor/MSFT/Policy/Config/Update/SetDisablePauseUXAccess</LocURI>
+    </Target>
+    <Meta>
+      <Format xmlns="syncml:metinf">int</Format>
+      <Type>text/plain</Type>
+    </Meta>
+    <Data>1</Data>
+  </Item>
+</Replace>
+
+<Replace>
+  <CmdID>ed7a8a75-f3b9-4a62-832a-faf5a0d8b937</CmdID>
+  <Item>
+    <Target>
+      <LocURI>./Device/Vendor/MSFT/Policy/Config/Update/UpdateNotificationLevel</LocURI>
+    </Target>
+    <Meta>
+      <Format xmlns="syncml:metinf">int</Format>
+      <Type>text/plain</Type>
+    </Meta>
+    <Data>0</Data>
+  </Item>
+</Replace>
+
+
+------------REMOVE SETTINGS SECTION------------
+
+<Delete>
+    <CmdID>aa2da755-52bb-4cdd-92c3-31291fb01308</CmdID>
+    <Item>
+        <Target>
+            <LocURI>./Vendor/MSFT/Policy/Config/Update/BranchReadinessLevel</LocURI>
+        </Target>
+        <Meta>
+            <Format  xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Data></Data>
+    </Item>
+</Delete>
+
+<Delete>
+    <CmdID>4185eb1a-abcd-4707-85c8-b7c27b45cb1c</CmdID>
+    <Item>
+        <Target>
+            <LocURI>./Vendor/MSFT/Policy/Config/System/AllowBuildPreview</LocURI>
+        </Target>
+        <Meta>
+            <Format  xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Data></Data>
+    </Item>
+</Delete>
+
+<Delete>
+  <CmdID>4026d30a-06ff-4cb9-a8c6-c469c49cb7c9</CmdID>
+  <Item>
+    <Target>
+      <LocURI>./Device/Vendor/MSFT/Policy/Config/Update/ManagePreviewBuilds</LocURI>
+    </Target>
+    <Meta>
+      <Format xmlns="syncml:metinf">int</Format>
+    </Meta>
+    <Data></Data>
+  </Item>
+</Delete>
+
+<Delete>
+    <CmdID>485268d8-a750-4a99-af29-ec49860f868a</CmdID>
+    <Item>
+        <Target>
+            <LocURI>./Vendor/MSFT/Policy/Config/Update/DeferQualityUpdatesPeriodInDays</LocURI>
+        </Target>
+        <Meta>
+            <Format  xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Data></Data>
+    </Item>
+</Delete>
+
+<Delete>
+    <CmdID>eaf1b8bd-4712-4d3a-9c94-71f2454d7f45</CmdID>
+    <Item>
+        <Target>
+            <LocURI>./Vendor/MSFT/Policy/Config/Update/AllowAutoUpdate</LocURI>
+        </Target>
+        <Meta>
+            <Format  xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Data></Data>
+    </Item>
+</Delete>
+
+<Delete>
+    <CmdID>cc3166fb-6ed5-4a50-9f7a-f03052be3b04</CmdID>
+    <Item>
+        <Target>
+            <LocURI>./Vendor/MSFT/Policy/Config/Update/ActiveHoursMaxRange</LocURI>
+        </Target>
+        <Meta>
+            <Format  xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Data></Data>
+    </Item>
+</Delete>
+
+<Delete>
+    <CmdID>05c9807c-3f1d-4a7f-b78e-8d6a8d3372fc</CmdID>
+    <Item>
+        <Target>
+            <LocURI>./Vendor/MSFT/Policy/Config/Update/ActiveHoursStart</LocURI>
+        </Target>
+        <Meta>
+            <Format  xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Data></Data>
+    </Item>
+</Delete>
+
+<Delete>
+    <CmdID>782a7750-7512-438a-a673-0ead349927a5</CmdID>
+    <Item>
+        <Target>
+            <LocURI>./Vendor/MSFT/Policy/Config/Update/ActiveHoursEnd</LocURI>
+        </Target>
+        <Meta>
+            <Format  xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Data></Data>
+    </Item>
+</Delete>
+
+<Delete>
+    <CmdID>bd4768a9-b43c-4e24-9b51-ea30a088697f</CmdID>
+    <Item>
+        <Target>
+            <LocURI>./Vendor/MSFT/Policy/Config/Update/AutoRestartDeadlinePeriodInDays</LocURI>
+        </Target>
+        <Meta>
+            <Format  xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Data></Data>
+    </Item>
+</Delete>
+
+<Delete>
+    <CmdID>f26ad48f-b258-43be-ac79-a7e8f786b7d2</CmdID>
+    <Item>
+        <Target>
+            <LocURI>./Vendor/MSFT/Policy/Config/Update/AutoRestartNotificationSchedule</LocURI>
+        </Target>
+        <Meta>
+            <Format  xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Data></Data>
+    </Item>
+</Delete>
+
+<Delete>
+    <CmdID>41ed6c9d-efc5-4ea8-a1f4-c894fadcb5a3</CmdID>
+    <Item>
+        <Target>
+            <LocURI>./Vendor/MSFT/Policy/Config/Update/AutoRestartRequiredNotificationDismissal</LocURI>
+        </Target>
+        <Meta>
+            <Format  xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Data></Data>
+    </Item>
+</Delete>
+
+<Delete>
+    <CmdID>ebb7c1d5-91b6-4e9c-a0ce-63349db18714</CmdID>
+    <Item>
+        <Target>
+            <LocURI>./Vendor/MSFT/Policy/Config/Update/EngagedRestartDeadline</LocURI>
+        </Target>
+        <Meta>
+            <Format  xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Data></Data>
+    </Item>
+</Delete>
+
+<Delete>
+    <CmdID>5889c6ff-ad72-475c-a08c-9bee52f3c10c</CmdID>
+    <Item>
+        <Target>
+            <LocURI>./Vendor/MSFT/Policy/Config/Update/EngagedRestartSnoozeSchedule</LocURI>
+        </Target>
+        <Meta>
+            <Format  xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Data></Data>
+    </Item>
+</Delete>
+
+<Delete>
+    <CmdID>4971a5d5-f356-47ea-b515-4fb69fd5daf8</CmdID>
+    <Item>
+        <Target>
+            <LocURI>./Vendor/MSFT/Policy/Config/Update/ScheduleRestartWarning</LocURI>
+        </Target>
+        <Meta>
+            <Format  xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Data></Data>
+    </Item>
+</Delete>
+
+<Delete>
+    <CmdID>7ef5fd31-60bc-417e-8c5d-71f776ab62c1</CmdID>
+    <Item>
+        <Target>
+            <LocURI>./Vendor/MSFT/Policy/Config/Update/ScheduleImminentRestartWarning</LocURI>
+        </Target>
+        <Meta>
+            <Format  xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Data></Data>
+    </Item>
+</Delete>
+
+<Delete>
+    <CmdID>86d59515-05e1-441d-a59b-ff46a20fc01f</CmdID>
+    <Item>
+        <Target>
+            <LocURI>./Vendor/MSFT/Policy/Config/Update/AllowMUUpdateService</LocURI>
+        </Target>
+        <Meta>
+            <Format  xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Data></Data>
+    </Item>
+</Delete>
+
+<Delete>
+    <CmdID>626e7ccc-5f8d-4658-b9ed-203eb118d157</CmdID>
+    <Item>
+        <Target>
+            <LocURI>./Vendor/MSFT/Policy/Config/Update/AllowUpdateService</LocURI>
+        </Target>
+        <Meta>
+            <Format  xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Data></Data>
+    </Item>
+</Delete>
+
+<Delete>
+    <CmdID>3e19a514-2e4e-44f0-90ac-7ebedeb0e13b</CmdID>
+    <Item>
+        <Target>
+            <LocURI>./Vendor/MSFT/Policy/Config/Update/DetectionFrequency</LocURI>
+        </Target>
+        <Meta>
+            <Format  xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Data></Data>
+    </Item>
+</Delete>
+
+<Delete>
+    <CmdID>40411540-598f-4086-9a95-3419b495f04d</CmdID>
+    <Item>
+        <Target>
+            <LocURI>./Vendor/MSFT/Policy/Config/Update/DisableDualScan</LocURI>
+        </Target>
+    <Meta>
+            <Format  xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Data></Data>
+    </Item>
+</Delete>
+
+<Delete>
+    <CmdID>47a2a701-f397-4ea1-a259-adc28d50cd1f</CmdID>
+    <Item>
+        <Target>
+            <LocURI>./Vendor/MSFT/Policy/Config/Update/ExcludeWUDriversInQualityUpdate</LocURI>
+        </Target>
+        <Meta>
+            <Format  xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Data></Data>
+    </Item>
+</Delete>
+
+<Delete>
+    <CmdID>f534c0a8-3a14-4cc6-8a0d-68d2cc1f58dc</CmdID>
+    <Item>
+        <Target>
+            <LocURI>./Vendor/MSFT/Policy/Config/Update/AllowNonMicrosoftSignedUpdate</LocURI>
+        </Target>
+        <Meta>
+            <Format  xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Data></Data>
+    </Item>
+</Delete>
+
+<Delete>
+    <CmdID>1382ed77-d53d-4827-b816-c52bea8cd6f2</CmdID>
+    <Item>
+        <Target>
+            <LocURI>./Vendor/MSFT/Policy/Config/Update/IgnoreMOAppDownloadLimit</LocURI>
+        </Target>
+        <Meta>
+            <Format  xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Data></Data>
+    </Item>
+</Delete>
+
+<Delete>
+    <CmdID>7eeacaaf-9de9-4074-844b-47bc012e17f8</CmdID>
+    <Item>
+        <Target>
+            <LocURI>./Vendor/MSFT/Policy/Config/Update/IgnoreMOUpdateDownloadLimit</LocURI>
+        </Target>
+        <Meta>
+            <Format  xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Data></Data>
+    </Item>
+</Delete>
+
+<Delete>
+    <CmdID>176dbfa6-6427-40c5-825e-a000c3356f40</CmdID>
+    <Item>
+        <Target>
+            <LocURI>./Vendor/MSFT/Policy/Config/Update/RequireUpdateApproval</LocURI>
+        </Target>
+        <Meta>
+            <Format  xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Data></Data>
+    </Item>
+</Delete>
+
+<Delete>
+  <CmdID>3fb4d8a6-eea6-43c9-a220-2f530726894e</CmdID>
+  <Item>
+    <Target>
+      <LocURI>./Device/Vendor/MSFT/Policy/Config/Update/AutomaticMaintenanceWakeUp</LocURI>
+    </Target>
+    <Meta>
+      <Format xmlns="syncml:metinf">int</Format>
+      <Type>text/plain</Type>
+    </Meta>
+    <Data></Data>
+  </Item>
+</Delete>
+
+<Delete>
+  <CmdID>45f6b6e3-9bed-49c4-b5b9-f518d69f9ce8</CmdID>
+  <Item>
+    <Target>
+      <LocURI>./Device/Vendor/MSFT/Policy/Config/Update/ConfigureDeadlineForQualityUpdates</LocURI>
+    </Target>
+    <Meta>
+      <Format xmlns="syncml:metinf">int</Format>
+      <Type>text/plain</Type>
+    </Meta>
+    <Data></Data>
+  </Item>
+</Delete>
+
+<Delete>
+  <CmdID>b1ef3d4f-34ac-49f5-9ac8-a1f7b854f328</CmdID>
+  <Item>
+    <Target>
+      <LocURI>./Device/Vendor/MSFT/Policy/Config/Update/ConfigureDeadlineGracePeriod</LocURI>
+    </Target>
+    <Meta>
+      <Format xmlns="syncml:metinf">int</Format>
+      <Type>text/plain</Type>
+    </Meta>
+    <Data></Data>
+  </Item>
+</Delete>
+
+<Delete>
+  <CmdID>56676ddc-036b-4709-a4dc-1bdf054520d0</CmdID>
+  <Item>
+    <Target>
+      <LocURI>./Device/Vendor/MSFT/Policy/Config/Update/ConfigureDeadlineNoAutoReboot</LocURI>
+    </Target>
+    <Meta>
+      <Format xmlns="syncml:metinf">int</Format>
+      <Type>text/plain</Type>
+    </Meta>
+    <Data></Data>
+  </Item>
+</Delete>
+
+<Delete>
+  <CmdID>fd7a8abd-2b14-4084-a912-d9bdd2ad7729</CmdID>
+  <Item>
+    <Target>
+      <LocURI>./Device/Vendor/MSFT/Policy/Config/Update/SetDisablePauseUXAccess</LocURI>
+    </Target>
+    <Meta>
+      <Format xmlns="syncml:metinf">int</Format>
+      <Type>text/plain</Type>
+    </Meta>
+    <Data></Data>
+  </Item>
+</Delete>
+
+<Delete>
+  <CmdID>ed7a8a75-f3b9-4a62-832a-faf5a0d8b937</CmdID>
+  <Item>
+    <Target>
+      <LocURI>./Device/Vendor/MSFT/Policy/Config/Update/UpdateNotificationLevel</LocURI>
+    </Target>
+    <Meta>
+      <Format xmlns="syncml:metinf">int</Format>
+      <Type>text/plain</Type>
+    </Meta>
+    <Data></Data>
+  </Item>
+</Delete>

@@ -1,0 +1,325 @@
+------------INSTALL SETTINGS SECTION------------
+
+<Delete>
+    <CmdID>06c4e2c8-062f-48d1-b506-e0f9735a51ec</CmdID>
+    <Item>
+        <Target>
+            <LocURI>./Vendor/MSFT/Policy/Config/DeliveryOptimization</LocURI>
+        </Target>
+    </Item>
+</Delete>
+
+<Replace>
+    <CmdID>166e36a9-f81b-413e-bfec-f0137ef61979</CmdID>
+    <Item>
+        <Target>
+            <LocURI>./Vendor/MSFT/Policy/Config/DeliveryOptimization/DODownloadMode</LocURI>
+        </Target>
+        <Meta>
+            <Format  xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Data>1</Data>
+    </Item>
+</Replace>
+
+<Replace>
+    <CmdID>54c70684-3e63-4088-aaa4-26ae452f215f</CmdID>
+    <Item>
+        <Target>
+            <LocURI>./Vendor/MSFT/Policy/Config/DeliveryOptimization/DOMaxCacheAge</LocURI>
+        </Target>
+        <Meta>
+            <Format  xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Data>259200</Data>
+    </Item>
+</Replace>
+
+<Replace>
+    <CmdID>f94090aa-9c67-443a-961b-0170508be750</CmdID>
+    <Item>
+        <Target>
+            <LocURI>./Vendor/MSFT/Policy/Config/DeliveryOptimization/DOMaxCacheSize</LocURI>
+        </Target>
+        <Meta>
+            <Format  xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Data>20</Data>
+    </Item>
+</Replace>
+
+<Replace>
+    <CmdID>68427e04-30f8-430e-9078-7fd31b7f36c7</CmdID>
+    <Item>
+        <Target>
+            <LocURI>./Vendor/MSFT/Policy/Config/DeliveryOptimization/DOMinBackgroundQos</LocURI>
+        </Target>
+        <Meta>
+            <Format  xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Data>500</Data>
+    </Item>
+</Replace>
+
+<Replace>
+    <CmdID>b144ce79-54c4-4122-bde0-80f7764a5891</CmdID>
+    <Item>
+        <Target>
+            <LocURI>./Vendor/MSFT/Policy/Config/DeliveryOptimization/DOAbsoluteMaxCacheSize</LocURI>
+        </Target>
+        <Meta>
+            <Format  xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Data>10</Data>
+    </Item>
+</Replace>
+
+<Replace>
+    <CmdID>57aa9c5a-04d9-45f7-aaec-7918a8fba2b2</CmdID>
+    <Item>
+        <Target>
+            <LocURI>./Vendor/MSFT/Policy/Config/DeliveryOptimization/DOMonthlyUploadDataCap</LocURI>
+        </Target>
+        <Meta>
+            <Format  xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Data>20</Data>
+    </Item>
+</Replace>
+
+<Replace>
+    <CmdID>c2933afe-b055-40b4-b5bf-fd2f0119af1c</CmdID>
+    <Item>
+        <Target>
+            <LocURI>./Vendor/MSFT/Policy/Config/DeliveryOptimization/DOModifyCacheDrive</LocURI>
+        </Target>
+        <Meta>
+            <Format  xmlns="syncml:metinf">chr</Format>
+        </Meta>
+        <Data>%SystemDrive%</Data>
+    </Item>
+</Replace>
+
+<Replace>
+    <CmdID>5a0280a2-ec29-4d31-b78a-1863a3382eec</CmdID>
+    <Item>
+        <Target>
+            <LocURI>./Vendor/MSFT/Policy/Config/DeliveryOptimization/DOAllowVPNPeerCaching</LocURI>
+        </Target>
+        <Meta>
+            <Format  xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Data>0</Data>
+    </Item>
+</Replace>
+
+<Replace>
+    <CmdID>b3f38267-1272-48fb-81f3-f555959c012e</CmdID>
+    <Item>
+        <Target>
+            <LocURI>./Vendor/MSFT/Policy/Config/DeliveryOptimization/DOMinBatteryPercentageAllowedToUpload</LocURI>
+        </Target>
+        <Meta>
+            <Format  xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Data>40</Data>
+    </Item>
+</Replace>
+
+<Replace>
+    <CmdID>391595e5-e8f9-47d8-bc35-f931d94dd5ea</CmdID>
+    <Item>
+        <Target>
+            <LocURI>./Vendor/MSFT/Policy/Config/DeliveryOptimization/DOMinDiskSizeAllowedToPeer</LocURI>
+        </Target>
+        <Meta>
+            <Format  xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Data>32</Data>
+    </Item>
+</Replace>
+
+<Replace>
+    <CmdID>6b59e760-497b-4439-b8fc-9885dc08b312</CmdID>
+    <Item>
+        <Target>
+            <LocURI>./Vendor/MSFT/Policy/Config/DeliveryOptimization/DOMinFileSizeToCache</LocURI>
+        </Target>
+        <Meta>
+            <Format  xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Data>4</Data>
+    </Item>
+</Replace>
+
+<Replace>
+    <CmdID>f63c578f-f3c9-48bb-b786-ee1296f5ffc4</CmdID>
+    <Item>
+        <Target>
+            <LocURI>./Vendor/MSFT/Policy/Config/DeliveryOptimization/DOMinRAMAllowedToPeer</LocURI>
+        </Target>
+        <Meta>
+            <Format  xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Data>4</Data>
+    </Item>
+</Replace>
+
+
+------------REMOVE SETTINGS SECTION------------
+
+<Delete>
+    <CmdID>166e36a9-f81b-413e-bfec-f0137ef61979</CmdID>
+    <Item>
+        <Target>
+            <LocURI>./Vendor/MSFT/Policy/Config/DeliveryOptimization/DODownloadMode</LocURI>
+        </Target>
+        <Meta>
+            <Format  xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Data></Data>
+    </Item>
+</Delete>
+
+<Delete>
+    <CmdID>54c70684-3e63-4088-aaa4-26ae452f215f</CmdID>
+    <Item>
+        <Target>
+            <LocURI>./Vendor/MSFT/Policy/Config/DeliveryOptimization/DOMaxCacheAge</LocURI>
+        </Target>
+        <Meta>
+            <Format  xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Data></Data>
+    </Item>
+</Delete>
+
+<Delete>
+    <CmdID>f94090aa-9c67-443a-961b-0170508be750</CmdID>
+    <Item>
+        <Target>
+            <LocURI>./Vendor/MSFT/Policy/Config/DeliveryOptimization/DOMaxCacheSize</LocURI>
+        </Target>
+        <Meta>
+            <Format  xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Data></Data>
+    </Item>
+</Delete>
+
+<Delete>
+    <CmdID>68427e04-30f8-430e-9078-7fd31b7f36c7</CmdID>
+    <Item>
+        <Target>
+            <LocURI>./Vendor/MSFT/Policy/Config/DeliveryOptimization/DOMinBackgroundQos</LocURI>
+        </Target>
+        <Meta>
+            <Format  xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Data></Data>
+    </Item>
+</Delete>
+
+<Delete>
+    <CmdID>b144ce79-54c4-4122-bde0-80f7764a5891</CmdID>
+    <Item>
+        <Target>
+            <LocURI>./Vendor/MSFT/Policy/Config/DeliveryOptimization/DOAbsoluteMaxCacheSize</LocURI>
+        </Target>
+        <Meta>
+            <Format  xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Data></Data>
+    </Item>
+</Delete>
+
+<Delete>
+    <CmdID>57aa9c5a-04d9-45f7-aaec-7918a8fba2b2</CmdID>
+    <Item>
+        <Target>
+            <LocURI>./Vendor/MSFT/Policy/Config/DeliveryOptimization/DOMonthlyUploadDataCap</LocURI>
+        </Target>
+        <Meta>
+            <Format  xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Data></Data>
+    </Item>
+</Delete>
+
+<Delete>
+    <CmdID>c2933afe-b055-40b4-b5bf-fd2f0119af1c</CmdID>
+    <Item>
+        <Target>
+            <LocURI>./Vendor/MSFT/Policy/Config/DeliveryOptimization/DOModifyCacheDrive</LocURI>
+        </Target>
+        <Meta>
+            <Format  xmlns="syncml:metinf">chr</Format>
+        </Meta>
+        <Data></Data>
+    </Item>
+</Delete>
+
+<Delete>
+    <CmdID>5a0280a2-ec29-4d31-b78a-1863a3382eec</CmdID>
+    <Item>
+        <Target>
+            <LocURI>./Vendor/MSFT/Policy/Config/DeliveryOptimization/DOAllowVPNPeerCaching</LocURI>
+        </Target>
+        <Meta>
+            <Format  xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Data></Data>
+    </Item>
+</Delete>
+
+<Delete>
+    <CmdID>b3f38267-1272-48fb-81f3-f555959c012e</CmdID>
+    <Item>
+        <Target>
+            <LocURI>./Vendor/MSFT/Policy/Config/DeliveryOptimization/DOMinBatteryPercentageAllowedToUpload</LocURI>
+        </Target>
+        <Meta>
+            <Format  xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Data></Data>
+    </Item>
+</Delete>
+
+<Delete>
+    <CmdID>391595e5-e8f9-47d8-bc35-f931d94dd5ea</CmdID>
+    <Item>
+        <Target>
+            <LocURI>./Vendor/MSFT/Policy/Config/DeliveryOptimization/DOMinDiskSizeAllowedToPeer</LocURI>
+        </Target>
+        <Meta>
+            <Format  xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Data></Data>
+    </Item>
+</Delete>
+
+<Delete>
+    <CmdID>6b59e760-497b-4439-b8fc-9885dc08b312</CmdID>
+    <Item>
+        <Target>
+            <LocURI>./Vendor/MSFT/Policy/Config/DeliveryOptimization/DOMinFileSizeToCache</LocURI>
+        </Target>
+        <Meta>
+            <Format  xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Data></Data>
+    </Item>
+</Delete>
+
+<Delete>
+    <CmdID>f63c578f-f3c9-48bb-b786-ee1296f5ffc4</CmdID>
+    <Item>
+        <Target>
+            <LocURI>./Vendor/MSFT/Policy/Config/DeliveryOptimization/DOMinRAMAllowedToPeer</LocURI>
+        </Target>
+        <Meta>
+            <Format  xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Data></Data>
+    </Item>
+</Delete>
